@@ -58,7 +58,7 @@ export default function Navbar() {
 
         <div className="hidden lg:flex items-center gap-4">
           <Link
-            href="https://cheras-rians-athlete-pro.vercel.app/login"
+            href={`${process.env.NEXT_PUBLIC_APP_URL}/login`}
             className="rounded-full bg-sport-cyan px-6 py-2.5 text-sm font-black tracking-wide text-sport-obsidian shadow-[0_0_15px_rgba(0,240,255,0.4)] transition-transform hover:scale-105"
           >
             Login
