@@ -16,7 +16,7 @@ export default function CTA() {
           Equip your organization with the definitive tool for managing modern athletic workflows.
         </p>
         <Link
-          href="https://app.cherasrians.my/login"
+          href={`${process.env.NEXT_PUBLIC_APP_URL}/login`}
           className="inline-flex items-center justify-center rounded-sm bg-sport-volt px-10 py-5 text-lg font-black uppercase tracking-wider text-sport-obsidian shadow-[0_0_20px_rgba(204,255,0,0.4)] transition-all hover:bg-white hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] hover:-translate-y-1"
         >
           Access The System
