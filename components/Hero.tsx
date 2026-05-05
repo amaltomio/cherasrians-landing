@@ -46,7 +46,7 @@ export default function Hero() {
           
           <div className="flex w-full flex-col gap-4 sm:flex-row lg:w-auto">
             <Link
-              href="https://app.cherasrians.my/login"
+              href={`${process.env.NEXT_PUBLIC_APP_URL}/login`}
               className="group relative flex items-center justify-center overflow-hidden rounded-sm bg-sport-volt px-8 py-4 text-sm font-black uppercase tracking-wider text-sport-obsidian transition-all hover:bg-white hover:shadow-[0_0_20px_rgba(204,255,0,0.5)]"
             >
               Get Started
