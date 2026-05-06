@@ -6,7 +6,7 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "CherasRiansAthletes Pro",
+  title: "CherasRians Athletes Pro",
   description: "Elevate athlete performance with data. A dynamic, high-performance ecosystem for modern sports management.",
 };
 
