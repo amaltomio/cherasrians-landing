@@ -16,14 +16,32 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "CherasRians Athletes Pro",
-  description: "Transform Your Club's Potential.",
+  description:
+    "Modern sports athlete management system for schools, coaches, and students.",
 
-  icons: {
-    icon: "/favicon.png",
-  },
+  keywords: [
+    "sports management system",
+    "school athlete system",
+    "sports CMS",
+    "CherasRians",
+    "athlete management",
+  ],
 
-  verification: {
-    google: "6sXvA0417Q_PNwTSR25R4D1xLDGjTWLAPs0DlsO62Xs",
+  openGraph: {
+    title: "CherasRians Athletes Pro",
+    description:
+      "Modern sports athlete management system for schools.",
+    url: "https://cherasrians.my",
+    siteName: "CherasRians Athletes Pro",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
   },
 };
 
